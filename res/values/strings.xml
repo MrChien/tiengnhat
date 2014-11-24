@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StudyJapan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_chao_hoi">ChaoHoiActivity</string>
+    <string name="title_activity_so">SoActivity</string>
+    <string name="title_activity_gia_dinh">GiaDinhActivity</string>
+    <string name="title_activity_an_uong">AnUongActivity</string>
+    <string name="title_activity_ngay_gio">NgayGioActivity</string>
+    <string name="title_activity_mau_sac">MauSacActivity</string>
+    <string name="title_activity_suc_khoe">SucKhoeActivity</string>
+    <string name="title_activity_dat_nuoc">DatNuocActivity</string>
+    <string name="title_activity_tim_kiem">TimKiemActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+     <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="lookup_word">Nhập từ cần tìm</string>
+       <string name="action_settings">Settings</string>
+  <string-array name="drawer_title_array">
+        <item>Màn Hình Chính</item>
+        <item>Tra Cứu</item>
+        <item>Chào Hỏi</item>
+        <item>Số Học</item>
+        <item>Gia Đình</item>
+        <item>Ăn Uống</item>
+        <item>Ngày Giờ</item>
+        <item>Màu Sắc</item>
+        <item>Đất Nước</item>
+        <item>Sức Khỏe</item>	
+    </string-array>
+
+    <array name="drawer_icon_array">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_look</item>
+        <item>@drawable/ic_chaohoi</item>
+        <item>@drawable/ic_so</item>
+        <item>@drawable/ic_giadinh</item>
+        <item>@drawable/ic_anuong</item>
+        <item>@drawable/ic_ngaygio</item>
+        <item>@drawable/ic_color</item>
+        <item>@drawable/ic_datnuoc</item>
+        <item>@drawable/ic_suckhoe</item>
+    </array>
+    
+</resources>

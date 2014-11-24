@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nihon"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChaoHoiActivity"
+            android:label="@string/title_activity_chao_hoi" >
+        </activity>
+        <activity
+            android:name=".SoActivity"
+            android:label="@string/title_activity_so" >
+        </activity>
+        <activity
+            android:name=".GiaDinhActivity"
+            android:label="@string/title_activity_gia_dinh" >
+        </activity>
+        <activity
+            android:name=".AnUongActivity"
+            android:label="@string/title_activity_an_uong" >
+        </activity>
+        <activity
+            android:name=".NgayGioActivity"
+            android:label="@string/title_activity_ngay_gio" >
+        </activity>
+        <activity
+            android:name=".MauSacActivity"
+            android:label="@string/title_activity_mau_sac" >
+        </activity>
+        <activity
+            android:name=".SucKhoeActivity"
+            android:label="@string/title_activity_suc_khoe" >
+        </activity>
+        <activity
+            android:name=".DatNuocActivity"
+            android:label="@string/title_activity_dat_nuoc" >
+        </activity>
+        <activity
+            android:name=".TimKiemActivity"
+            android:label="@string/title_activity_tim_kiem" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>
